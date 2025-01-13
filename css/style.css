@@ -51,6 +51,36 @@
     font-weight: 600;
 }
 
+ul{
+    margin-left: 1rem;
+}
+
 #main_paragraph ul{
     margin-top: 30px;
+}
+
+#table_section{
+    margin-top: 30px;
+    text-align: left;
+    font-weight: 600;
+}
+
+thead{
+    background-color: var(--bl-medium);
+}
+
+td, th{
+    width: 30%;
+}
+
+th{
+    color: white;
+}
+
+td{
+    height: 80px;
+}
+
+.tr_blue{
+    background-color: var(--bl-light);
 }
