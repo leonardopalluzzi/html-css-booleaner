@@ -2,6 +2,8 @@
     --bl-dark: #4ea0ff;
     --bl-medium: #20a9e5;
     --bl-light: #b1e5f2;
+    --bl-greytext: #888888;
+    --bl-bluetext: #33b0e6; 
 }
 
 *{
@@ -10,7 +12,7 @@
     box-sizing: border-box;
 }
 
-header{
+#site_header{
     color: white;
     text-shadow: 2px 2px black;
     background-image: url(../img/pattern.png);
@@ -21,4 +23,22 @@ header{
 
 #header_container{
     height: 100px;
+}
+
+#site_main{
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#title{
+    font-size: 3rem;
+}
+
+.grey_text{
+    color: var(--bl-greytext);
+}
+
+#blue_text{
+    color: var(--bl-bluetext);
 }
