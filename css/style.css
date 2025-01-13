@@ -28,7 +28,6 @@
 #site_main{
     margin: 5px;
     margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 #title{
@@ -41,4 +40,17 @@
 
 #blue_text{
     color: var(--bl-bluetext);
+}
+
+#main_text{
+    margin-top: 30px;
+}
+
+#main_paragraph{
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+#main_paragraph ul{
+    margin-top: 30px;
 }
