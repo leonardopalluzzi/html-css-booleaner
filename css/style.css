@@ -18,11 +18,22 @@
     background-image: url(../img/pattern.png);
     background-repeat: repeat-x;
     background-color: var(--bl-dark);
-    position: relative;
 }
 
 #header_container {
-    height: 100px;
+    height: 150px;
+    position: relative;
+}
+
+#text_header_container{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 2rem;
+}
+
+#text_header_container h3{
+    font-weight: 200;
 }
 
 #site_main {
@@ -94,15 +105,24 @@ td {
     margin-top: 30px;
 }
 
-#container_find_more {
-    position: relative;
+#img_1_findmore {
     text-align: left;
-    color: white
+    color: white;
+    background-image: url(../img/monitor.jpg);
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.over_text {
-    position: absolute;
-    top: 8px;
-    left: 16px;
+#img_2_findmore {
+    text-align: left;
+    color: white;
+    background-image: url(../img/graph.jpg);
+    height: 200px;
+    width: 200px;
+}
+
+.over_text{
     font-weight: 600;
 }
