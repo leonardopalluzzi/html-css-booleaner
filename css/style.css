@@ -1,0 +1,24 @@
+:root{
+    --bl-dark: #4ea0ff;
+    --bl-medium: #20a9e5;
+    --bl-light: #b1e5f2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: white;
+    text-shadow: 2px 2px black;
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat-x;
+    background-color: var(--bl-dark);
+    position: relative;
+}
+
+#header_container{
+    height: 100px;
+}
